@@ -1,7 +1,14 @@
 import "./App.css";
-import { Article, CTA, Feature, Brand, Navbar } from "./Components";
+import { CTA, Brand, Navbar } from "./Components";
 
-import { Blog, Footer, Header, Possibility, WhatGPT3 } from "./Containers";
+import {
+  Blog,
+  Footer,
+  Header,
+  Possibility,
+  WhatGPT3,
+  Features,
+} from "./Containers";
 
 function App() {
   return (
@@ -12,7 +19,7 @@ function App() {
       </div>
       <Brand />
       <WhatGPT3 />
-      <Feature />
+      <Features />
       <Possibility />
       <CTA />
       <Blog />
